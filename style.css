@@ -122,17 +122,6 @@ body {
   position: relative;
 }
 
-@media (max-width: 576px) {
-  .hero-section {
-    height: auto;
-    background-size: contain;
-  }
-
-  .hero-image {
-    height: auto;
-    object-fit: contain;
-  }
-}
 @keyframes fadeInUp {
   0% { opacity: 0; transform: translateY(30px); }
   100% { opacity: 1; transform: translateY(0); }
@@ -440,5 +429,6 @@ section {
     font-size: 1.2rem;
   }
 }
+
 
 
