@@ -16,7 +16,7 @@ body {
 }
 
 .custom-navbar.scrolled {
-  background-color: #98e4f7; /* চাইলে অন্য রঙ ব্যবহার করো */
+  background-color: #98e4f7; 
   box-shadow: 0 2px 6px rgba(211, 92, 92, 0.445);
 }
 
@@ -63,11 +63,8 @@ body {
   width: 60px;
   height: auto;
 }
-@media (max-width: 576px) {
-  .brand-text {
-    font-size: 1rem;
-  }
-}
+
+
 .brand-name {
   font-size: 5rem;
   font-weight: 700;
@@ -163,7 +160,7 @@ body {
 
 .tour-card {
   width: 400px;
-  margin: 0 10px;          /* ডান ও বাম পাশে ফাঁকা জায়গা */
+  margin: 0 10px;          
   text-align: center;
 }
 
@@ -400,5 +397,22 @@ section {
   padding: 40px;
   margin-bottom: 40px;
 }
+@media (max-width: 576px) {
+  .brand-text {
+    font-size: 1.2rem;
+  }
 
+  .navbar-brand img {
+    width: 40px;
+  }
 
+  .navbar-nav .nav-link {
+    font-size: 1rem;
+    margin-left: 10px;
+  }
+
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link.active {
+    font-size: 1.2rem;
+  }
+}
